@@ -5,7 +5,7 @@ h1{
     font-size: 30px;
 }
 .blue-color{
-    color: royalblue;
+    color:royalblue;
 }
 section{
     display: flex;
@@ -34,13 +34,15 @@ h2{
 }
 .contact-me{
     background-image:url(assets/Frame\ 57.png);
-    background-position: center;
+    background-position: left;
     background-size:cover;
     background-repeat: no-repeat;
     height: 300px;
+}
+    
     
 
-}
+
 .add-button{
     text-decoration: none;
     background-image: linear-gradient(royalblue, aqua);
@@ -51,4 +53,18 @@ h2{
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius:20px ;
+}
+.recipes{
+    position: center;
+}
+.one-third{
+    width: 33.33%;
+    height: 500px;
+    margin: 3% 3% 3% 3%;
+  padding: 2% 2% 2% 2%;
+ box-shadow:2px 2px 2px 2px  gray;
+}
+.one-third img{
+    width: 80%;
+    padding: 2%;
 }
