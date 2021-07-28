@@ -34,15 +34,11 @@ h2{
 }
 .contact-me{
     background-image:url(assets/Frame\ 57.png);
-    background-position: left;
+    background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
     height: 300px;
-}
-    
-    
-
-
+}    
 .add-button{
     text-decoration: none;
     background-image: linear-gradient(royalblue, aqua);
@@ -55,16 +51,24 @@ h2{
     border-radius:20px ;
 }
 .recipes{
-    position: center;
+   text-align: center;
 }
+
 .one-third{
     width: 33.33%;
     height: 500px;
     margin: 3% 3% 3% 3%;
   padding: 2% 2% 2% 2%;
- box-shadow:2px 2px 2px 2px  gray;
+ box-shadow:10px 10px 10px gray;
 }
 .one-third img{
     width: 80%;
     padding: 2%;
+}
+footer{
+    text-align: center;
+    padding: 3px;
+    background-color: black;
+    color:gray
+   
 }
