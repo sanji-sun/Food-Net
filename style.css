@@ -10,6 +10,12 @@ h1{
 section{
     display: flex;
 }
+p{
+    color: gray;
+}
+h2{
+    color: gray;
+}
 .half-width{
     width: 50%;
     padding-left: 2%;
@@ -24,5 +30,25 @@ section{
     color: white;
     font-weight: 500;
     padding: 10px 30px;
-    border-radius: 5px;
+    border-radius: 20px;
+}
+.contact-me{
+    background-image:url(assets/Frame\ 57.png);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    
+
+}
+.add-button{
+    text-decoration: none;
+    background-image: linear-gradient(royalblue, aqua);
+    color: white;
+    font-weight: 500;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius:20px ;
 }
