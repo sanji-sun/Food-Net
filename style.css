@@ -37,8 +37,13 @@ h2{
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
-    height: 300px;
-}    
+    height:400px;
+    width: 100%;
+    padding-right: 50px;
+    padding-top: 10%;
+    text-align: right;
+    
+} 
 .add-button{
     text-decoration: none;
     background-image: linear-gradient(royalblue, aqua);
@@ -52,6 +57,7 @@ h2{
 }
 .recipes{
    text-align: center;
+   padding-left: 30%;
 }
 
 .one-third{
